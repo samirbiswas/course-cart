@@ -12,7 +12,6 @@
 }
 .course-details {
     
-    padding-top: 20px;
     padding-left: 20px;
    
 }
@@ -24,6 +23,8 @@
 }
 .course-details h5{
     color: #fe0a52;
+    font-size: 18px;
+    
 }
 .course-details button{
 
@@ -31,7 +32,7 @@
     width: 120px;
     border:1px solid tomato;
     cursor :pointer;
-    margin-top: 10px;
+    margin-top: 5px;
     border-radius: 5px;
 }
 button:hover{

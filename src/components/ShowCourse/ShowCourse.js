@@ -2,7 +2,7 @@ import React from 'react';
 import './ShowCourse.css'
 
 const ShowCourse = (props) => {
-    const {courseName,price,img} = props.course;
+    const {courseName,price,img,courseDuration} = props.course;
 
     return (
         
@@ -13,7 +13,8 @@ const ShowCourse = (props) => {
             </div>
             <div className="course-details">
                 <h4>{courseName}</h4>
-                <h5>কোর্স ফিঃ {price}</h5>
+                <p>কোর্স এর সময়কালঃ {courseDuration}</p>
+                <h5>কোর্স ফিঃ {price} টাকা</h5>
                 <button
                 onClick={()=>props.clickHandler(props.course)}
                 >Enroll Now</button>

@@ -12,7 +12,7 @@ const Cart = (props) => {
 
             <Card style={{ width: '18rem' }}>
             <ListGroup variant="flush">
-                <ListGroup.Item>মোট কোর্স : {cart.length}</ListGroup.Item>
+                <ListGroup.Item>মোট কোর্স : {cart.length} টি </ListGroup.Item>
                 <ListGroup.Item>মোট খরচ  : {totalPrice} টাকা</ListGroup.Item>
             </ListGroup>
             </Card>
