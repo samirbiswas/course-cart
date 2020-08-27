@@ -1,0 +1,7 @@
+.course{
+    display: flex;
+    margin-top: 10px;
+}
+.course-info{
+    width: 70%;
+}

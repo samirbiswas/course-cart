@@ -1,0 +1,41 @@
+.image-position img{
+    height: 150px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.image-position{
+    display: flex;
+    margin-top: 15px;
+    
+}
+.course-details {
+    
+    padding-top: 20px;
+    padding-left: 20px;
+   
+}
+.coures-description{
+    border: 1px solid#fe0a52;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.course-details h5{
+    color: #fe0a52;
+}
+.course-details button{
+
+    color:#fe0a52;
+    width: 120px;
+    border:1px solid tomato;
+    cursor :pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+button:hover{
+    background-color:#fe0a52;
+    color: white;
+    border: 2px solid white;
+}
